@@ -54,7 +54,8 @@ header {
   min-height: 100vh;
   font-family: "Poppins", sans-serif;
   color: var(--color-white);
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 section {
@@ -217,7 +218,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-right: 18rem;
+  padding: 2rem 18rem 2rem 0;
 }
 .header-content .right-header .name {
   font-size: 3rem;
@@ -290,7 +291,7 @@ section {
   color: var(--color-grey-1);
 }
 .about-container .left-about h4 {
-  font-size: 2rem;
+  font-size: 1.9rem;
   text-transform: uppercase;
 }
 
@@ -332,6 +333,27 @@ section {
   background-color: var(--color-secondary);
   transition: all 0.4s ease-in-out;
   width: 60%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .linux {
+  width: 80%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .oscope {
+  width: 60%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .dmm {
+  width: 80%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .troubleshoot {
+  width: 70%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .plc {
+  width: 50%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .solidworks {
+  width: 75%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .fusion360 {
+  width: 90%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .html {
   width: 65%;
@@ -859,6 +881,18 @@ section {
   }
   .control-btns .control {
     margin: 0.8rem 1.2rem;
+  }
+}
+@media screen and (max-height: 900px) {
+  .header-content .right-header {
+    justify-content: flex-start;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .header-content .right-header p {
+    margin: 1.25rem 0 1.5rem;
+    line-height: 1.8rem;
   }
 }
 @media screen and (max-width: 700px) {
