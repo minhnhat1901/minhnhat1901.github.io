@@ -591,7 +591,7 @@ section {
 }
 .contact-content-con .left-contact h4 {
   margin-top: 1rem;
-  font-size: 1rem;
+  font-size: 1.6rem;
   text-transform: uppercase;
 }
 .contact-content-con .left-contact p {
@@ -614,7 +614,7 @@ section {
 .contact-content-con .left-contact .contact-info .contact-item .icon i {
   display: flex;
   align-items: center;
-  font-size: 1.3 rem;
+  font-size: 1.3rem;
 }
 .contact-content-con .left-contact .contact-icon {
   display: flex;
